@@ -1,6 +1,6 @@
 // Make your changes to store and update game state in this file
 
-// Take the row and column number between 0 and 2 
+// Take the row and column number between 0 and 2
 // (inclusive) and update the game state.
 function takeTurn(row, column) {
     console.log("takeTurn was called with row: "+row+", column:"+column);
@@ -9,7 +9,7 @@ function takeTurn(row, column) {
 // Return either "noughts", "crosses" or "nobody" if the game is over.
 // Otherwise return null to continue playing.
 function checkWinner() {
-    console.log("checkWinner was called");
+    console.log("THIS IS DEGNSEOIRTHBNSJKLERNEW5YIKFUOI");
     return null;
 }
 
@@ -27,7 +27,7 @@ function getBoard() {
 
 if (typeof exports === 'object') {
     console.log("Running in Node")
-    // Node. Does not work with strict CommonJS, but only CommonJS-like 
+    // Node. Does not work with strict CommonJS, but only CommonJS-like
     // environments that support module.exports, like Node.
     module.exports = {
         takeTurn,
